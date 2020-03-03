@@ -28,7 +28,7 @@ p{
 
 .container{
 	display:flex;
-	margin: auto -1rem 1rem;
+	margin: auto 1rem 1rem;
 }
 
 .col{
@@ -36,8 +36,10 @@ p{
 	padding: 1rem;
 }
 
-.sidebar{
+.side{
 	flex: 1;
+	position: relative;
+	top: auto; 
 }
 
 .main{
@@ -45,26 +47,32 @@ p{
 	flex: 3
 }
 
-.navbar-nav{
-	list-style: none;
+.navbar{
+	position: fixed;
 }
 
-.titulo{
-	padding-block-start: 0.67em;
-    padding-block-end: 0.67em
-	margin: 0 1rem;
+.navbar-nav{
+	list-style: none;
+	padding: 0;
+}
+
+.top{
 	border-bottom: black solid;
 }
 
+.titulo{
+	margin-left: 3rem;
+	margin-right: 1rem;
+}
+
 .nav-img{
-	width: 100px;
+	width: 130px;
 	margin: 2% 0;
-	padding-inline-start: 40px;
 }
 .nav-item{
 	margin: 3% 0;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 section h2{
