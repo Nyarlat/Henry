@@ -41,6 +41,7 @@ p{
 }
 
 .main{
+	border-left: black solid;
 	flex: 3
 }
 
@@ -49,7 +50,10 @@ p{
 }
 
 .titulo{
-	margin-left: 1rem;
+	padding-block-start: 0.67em;
+    padding-block-end: 0.67em
+	margin: 0 1rem;
+	border-bottom: black solid;
 }
 
 .nav-img{
