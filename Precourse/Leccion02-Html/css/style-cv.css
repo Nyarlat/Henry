@@ -44,3 +44,30 @@ p{
 	flex: 3
 }
 
+.navbar-nav{
+	list-style: none;
+}
+
+.titulo{
+	margin-left: 1rem;
+}
+
+.nav-img{
+	width: 100px;
+	margin: 2% 0;
+	padding-inline-start: 40px;
+}
+.nav-item{
+	margin: 3% 0;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+section h2{
+	text-indent: 2rem;
+}
+
+section p{
+	text-align: justify;
+	text-indent: 4rem;
+}
