@@ -18,40 +18,29 @@ body{
 	background-color: var(--primary-bg);
 }
 
-main {
-	margin-left: 5rem;
+h1,h2 {
+	font-family: var(--primary-font);
+}
+
+p{
+	font-family: var(--secondary-font);
+}
+
+.container{
+	display:flex;
+	margin: auto -1rem 1rem;
+}
+
+.col{
+	margin: 0 0.5rem 0 0.5rem;
 	padding: 1rem;
 }
 
-.navbar{
-	width: 5rem;
-	height: 100vh;
-	position: fixed;
-	background-color: red;
+.sidebar{
+	flex: 1;
 }
 
-.navbar-nav{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.main{
+	flex: 3
 }
 
-.nav-item {
-	width: 100%;
-}
-
-.nav-item:last-child {
-	margin-top: auto;
-}
-
-.nav-link{
-	display:flex;
-	align-items: center;
-	height: 5rem; 
-	text-decoration: none;
-}
-
-.nav-item 
